@@ -1,0 +1,14 @@
+/Users/alejandro/Desktop/C#/Propiedades/bin/Debug/net9.0/Propiedades
+/Users/alejandro/Desktop/C#/Propiedades/bin/Debug/net9.0/Propiedades.deps.json
+/Users/alejandro/Desktop/C#/Propiedades/bin/Debug/net9.0/Propiedades.runtimeconfig.json
+/Users/alejandro/Desktop/C#/Propiedades/bin/Debug/net9.0/Propiedades.dll
+/Users/alejandro/Desktop/C#/Propiedades/bin/Debug/net9.0/Propiedades.pdb
+/Users/alejandro/Desktop/C#/Propiedades/obj/Debug/net9.0/Propiedades.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alejandro/Desktop/C#/Propiedades/obj/Debug/net9.0/Propiedades.AssemblyInfoInputs.cache
+/Users/alejandro/Desktop/C#/Propiedades/obj/Debug/net9.0/Propiedades.AssemblyInfo.cs
+/Users/alejandro/Desktop/C#/Propiedades/obj/Debug/net9.0/Propiedades.csproj.CoreCompileInputs.cache
+/Users/alejandro/Desktop/C#/Propiedades/obj/Debug/net9.0/Propiedades.dll
+/Users/alejandro/Desktop/C#/Propiedades/obj/Debug/net9.0/refint/Propiedades.dll
+/Users/alejandro/Desktop/C#/Propiedades/obj/Debug/net9.0/Propiedades.pdb
+/Users/alejandro/Desktop/C#/Propiedades/obj/Debug/net9.0/Propiedades.genruntimeconfig.cache
+/Users/alejandro/Desktop/C#/Propiedades/obj/Debug/net9.0/ref/Propiedades.dll

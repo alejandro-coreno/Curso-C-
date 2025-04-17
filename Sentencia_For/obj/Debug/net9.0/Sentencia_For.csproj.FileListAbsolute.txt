@@ -1,0 +1,14 @@
+/Users/alejandro/Desktop/C#/Sentencia_For/bin/Debug/net9.0/Sentencia_For
+/Users/alejandro/Desktop/C#/Sentencia_For/bin/Debug/net9.0/Sentencia_For.deps.json
+/Users/alejandro/Desktop/C#/Sentencia_For/bin/Debug/net9.0/Sentencia_For.runtimeconfig.json
+/Users/alejandro/Desktop/C#/Sentencia_For/bin/Debug/net9.0/Sentencia_For.dll
+/Users/alejandro/Desktop/C#/Sentencia_For/bin/Debug/net9.0/Sentencia_For.pdb
+/Users/alejandro/Desktop/C#/Sentencia_For/obj/Debug/net9.0/Sentencia_For.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alejandro/Desktop/C#/Sentencia_For/obj/Debug/net9.0/Sentencia_For.AssemblyInfoInputs.cache
+/Users/alejandro/Desktop/C#/Sentencia_For/obj/Debug/net9.0/Sentencia_For.AssemblyInfo.cs
+/Users/alejandro/Desktop/C#/Sentencia_For/obj/Debug/net9.0/Sentencia_For.csproj.CoreCompileInputs.cache
+/Users/alejandro/Desktop/C#/Sentencia_For/obj/Debug/net9.0/Sentencia_For.dll
+/Users/alejandro/Desktop/C#/Sentencia_For/obj/Debug/net9.0/refint/Sentencia_For.dll
+/Users/alejandro/Desktop/C#/Sentencia_For/obj/Debug/net9.0/Sentencia_For.pdb
+/Users/alejandro/Desktop/C#/Sentencia_For/obj/Debug/net9.0/Sentencia_For.genruntimeconfig.cache
+/Users/alejandro/Desktop/C#/Sentencia_For/obj/Debug/net9.0/ref/Sentencia_For.dll

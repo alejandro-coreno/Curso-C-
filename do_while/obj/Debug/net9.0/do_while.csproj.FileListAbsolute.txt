@@ -1,0 +1,14 @@
+/Users/alejandro/Desktop/C#/do_while/bin/Debug/net9.0/do_while
+/Users/alejandro/Desktop/C#/do_while/bin/Debug/net9.0/do_while.deps.json
+/Users/alejandro/Desktop/C#/do_while/bin/Debug/net9.0/do_while.runtimeconfig.json
+/Users/alejandro/Desktop/C#/do_while/bin/Debug/net9.0/do_while.dll
+/Users/alejandro/Desktop/C#/do_while/bin/Debug/net9.0/do_while.pdb
+/Users/alejandro/Desktop/C#/do_while/obj/Debug/net9.0/do_while.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alejandro/Desktop/C#/do_while/obj/Debug/net9.0/do_while.AssemblyInfoInputs.cache
+/Users/alejandro/Desktop/C#/do_while/obj/Debug/net9.0/do_while.AssemblyInfo.cs
+/Users/alejandro/Desktop/C#/do_while/obj/Debug/net9.0/do_while.csproj.CoreCompileInputs.cache
+/Users/alejandro/Desktop/C#/do_while/obj/Debug/net9.0/do_while.dll
+/Users/alejandro/Desktop/C#/do_while/obj/Debug/net9.0/refint/do_while.dll
+/Users/alejandro/Desktop/C#/do_while/obj/Debug/net9.0/do_while.pdb
+/Users/alejandro/Desktop/C#/do_while/obj/Debug/net9.0/do_while.genruntimeconfig.cache
+/Users/alejandro/Desktop/C#/do_while/obj/Debug/net9.0/ref/do_while.dll

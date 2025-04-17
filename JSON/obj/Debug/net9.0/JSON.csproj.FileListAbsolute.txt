@@ -1,0 +1,14 @@
+/Users/alejandro/Desktop/C#/JSON/bin/Debug/net9.0/JSON
+/Users/alejandro/Desktop/C#/JSON/bin/Debug/net9.0/JSON.deps.json
+/Users/alejandro/Desktop/C#/JSON/bin/Debug/net9.0/JSON.runtimeconfig.json
+/Users/alejandro/Desktop/C#/JSON/bin/Debug/net9.0/JSON.dll
+/Users/alejandro/Desktop/C#/JSON/bin/Debug/net9.0/JSON.pdb
+/Users/alejandro/Desktop/C#/JSON/obj/Debug/net9.0/JSON.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alejandro/Desktop/C#/JSON/obj/Debug/net9.0/JSON.AssemblyInfoInputs.cache
+/Users/alejandro/Desktop/C#/JSON/obj/Debug/net9.0/JSON.AssemblyInfo.cs
+/Users/alejandro/Desktop/C#/JSON/obj/Debug/net9.0/JSON.csproj.CoreCompileInputs.cache
+/Users/alejandro/Desktop/C#/JSON/obj/Debug/net9.0/JSON.dll
+/Users/alejandro/Desktop/C#/JSON/obj/Debug/net9.0/refint/JSON.dll
+/Users/alejandro/Desktop/C#/JSON/obj/Debug/net9.0/JSON.pdb
+/Users/alejandro/Desktop/C#/JSON/obj/Debug/net9.0/JSON.genruntimeconfig.cache
+/Users/alejandro/Desktop/C#/JSON/obj/Debug/net9.0/ref/JSON.dll

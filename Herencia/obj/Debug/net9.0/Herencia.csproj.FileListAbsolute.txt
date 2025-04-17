@@ -1,0 +1,14 @@
+/Users/alejandro/Desktop/C#/Herencia/bin/Debug/net9.0/Herencia
+/Users/alejandro/Desktop/C#/Herencia/bin/Debug/net9.0/Herencia.deps.json
+/Users/alejandro/Desktop/C#/Herencia/bin/Debug/net9.0/Herencia.runtimeconfig.json
+/Users/alejandro/Desktop/C#/Herencia/bin/Debug/net9.0/Herencia.dll
+/Users/alejandro/Desktop/C#/Herencia/bin/Debug/net9.0/Herencia.pdb
+/Users/alejandro/Desktop/C#/Herencia/obj/Debug/net9.0/Herencia.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alejandro/Desktop/C#/Herencia/obj/Debug/net9.0/Herencia.AssemblyInfoInputs.cache
+/Users/alejandro/Desktop/C#/Herencia/obj/Debug/net9.0/Herencia.AssemblyInfo.cs
+/Users/alejandro/Desktop/C#/Herencia/obj/Debug/net9.0/Herencia.csproj.CoreCompileInputs.cache
+/Users/alejandro/Desktop/C#/Herencia/obj/Debug/net9.0/Herencia.dll
+/Users/alejandro/Desktop/C#/Herencia/obj/Debug/net9.0/refint/Herencia.dll
+/Users/alejandro/Desktop/C#/Herencia/obj/Debug/net9.0/Herencia.pdb
+/Users/alejandro/Desktop/C#/Herencia/obj/Debug/net9.0/Herencia.genruntimeconfig.cache
+/Users/alejandro/Desktop/C#/Herencia/obj/Debug/net9.0/ref/Herencia.dll

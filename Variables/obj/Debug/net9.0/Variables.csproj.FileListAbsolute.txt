@@ -1,0 +1,14 @@
+/Users/alejandro/Desktop/C#/Variables/bin/Debug/net9.0/Variables
+/Users/alejandro/Desktop/C#/Variables/bin/Debug/net9.0/Variables.deps.json
+/Users/alejandro/Desktop/C#/Variables/bin/Debug/net9.0/Variables.runtimeconfig.json
+/Users/alejandro/Desktop/C#/Variables/bin/Debug/net9.0/Variables.dll
+/Users/alejandro/Desktop/C#/Variables/bin/Debug/net9.0/Variables.pdb
+/Users/alejandro/Desktop/C#/Variables/obj/Debug/net9.0/Variables.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alejandro/Desktop/C#/Variables/obj/Debug/net9.0/Variables.AssemblyInfoInputs.cache
+/Users/alejandro/Desktop/C#/Variables/obj/Debug/net9.0/Variables.AssemblyInfo.cs
+/Users/alejandro/Desktop/C#/Variables/obj/Debug/net9.0/Variables.csproj.CoreCompileInputs.cache
+/Users/alejandro/Desktop/C#/Variables/obj/Debug/net9.0/Variables.dll
+/Users/alejandro/Desktop/C#/Variables/obj/Debug/net9.0/refint/Variables.dll
+/Users/alejandro/Desktop/C#/Variables/obj/Debug/net9.0/Variables.pdb
+/Users/alejandro/Desktop/C#/Variables/obj/Debug/net9.0/Variables.genruntimeconfig.cache
+/Users/alejandro/Desktop/C#/Variables/obj/Debug/net9.0/ref/Variables.dll

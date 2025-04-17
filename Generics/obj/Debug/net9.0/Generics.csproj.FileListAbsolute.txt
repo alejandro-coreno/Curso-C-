@@ -1,0 +1,14 @@
+/Users/alejandro/Desktop/C#/Generics/bin/Debug/net9.0/Generics
+/Users/alejandro/Desktop/C#/Generics/bin/Debug/net9.0/Generics.deps.json
+/Users/alejandro/Desktop/C#/Generics/bin/Debug/net9.0/Generics.runtimeconfig.json
+/Users/alejandro/Desktop/C#/Generics/bin/Debug/net9.0/Generics.dll
+/Users/alejandro/Desktop/C#/Generics/bin/Debug/net9.0/Generics.pdb
+/Users/alejandro/Desktop/C#/Generics/obj/Debug/net9.0/Generics.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alejandro/Desktop/C#/Generics/obj/Debug/net9.0/Generics.AssemblyInfoInputs.cache
+/Users/alejandro/Desktop/C#/Generics/obj/Debug/net9.0/Generics.AssemblyInfo.cs
+/Users/alejandro/Desktop/C#/Generics/obj/Debug/net9.0/Generics.csproj.CoreCompileInputs.cache
+/Users/alejandro/Desktop/C#/Generics/obj/Debug/net9.0/Generics.dll
+/Users/alejandro/Desktop/C#/Generics/obj/Debug/net9.0/refint/Generics.dll
+/Users/alejandro/Desktop/C#/Generics/obj/Debug/net9.0/Generics.pdb
+/Users/alejandro/Desktop/C#/Generics/obj/Debug/net9.0/Generics.genruntimeconfig.cache
+/Users/alejandro/Desktop/C#/Generics/obj/Debug/net9.0/ref/Generics.dll

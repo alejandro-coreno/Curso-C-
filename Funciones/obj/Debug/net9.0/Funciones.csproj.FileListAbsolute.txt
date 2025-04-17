@@ -1,0 +1,14 @@
+/Users/alejandro/Desktop/C#/Funciones/bin/Debug/net9.0/Funciones
+/Users/alejandro/Desktop/C#/Funciones/bin/Debug/net9.0/Funciones.deps.json
+/Users/alejandro/Desktop/C#/Funciones/bin/Debug/net9.0/Funciones.runtimeconfig.json
+/Users/alejandro/Desktop/C#/Funciones/bin/Debug/net9.0/Funciones.dll
+/Users/alejandro/Desktop/C#/Funciones/bin/Debug/net9.0/Funciones.pdb
+/Users/alejandro/Desktop/C#/Funciones/obj/Debug/net9.0/Funciones.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alejandro/Desktop/C#/Funciones/obj/Debug/net9.0/Funciones.AssemblyInfoInputs.cache
+/Users/alejandro/Desktop/C#/Funciones/obj/Debug/net9.0/Funciones.AssemblyInfo.cs
+/Users/alejandro/Desktop/C#/Funciones/obj/Debug/net9.0/Funciones.csproj.CoreCompileInputs.cache
+/Users/alejandro/Desktop/C#/Funciones/obj/Debug/net9.0/Funciones.dll
+/Users/alejandro/Desktop/C#/Funciones/obj/Debug/net9.0/refint/Funciones.dll
+/Users/alejandro/Desktop/C#/Funciones/obj/Debug/net9.0/Funciones.pdb
+/Users/alejandro/Desktop/C#/Funciones/obj/Debug/net9.0/Funciones.genruntimeconfig.cache
+/Users/alejandro/Desktop/C#/Funciones/obj/Debug/net9.0/ref/Funciones.dll

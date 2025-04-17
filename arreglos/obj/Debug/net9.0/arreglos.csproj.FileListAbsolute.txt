@@ -1,0 +1,14 @@
+/Users/alejandro/Desktop/C#/arreglos/bin/Debug/net9.0/arreglos
+/Users/alejandro/Desktop/C#/arreglos/bin/Debug/net9.0/arreglos.deps.json
+/Users/alejandro/Desktop/C#/arreglos/bin/Debug/net9.0/arreglos.runtimeconfig.json
+/Users/alejandro/Desktop/C#/arreglos/bin/Debug/net9.0/arreglos.dll
+/Users/alejandro/Desktop/C#/arreglos/bin/Debug/net9.0/arreglos.pdb
+/Users/alejandro/Desktop/C#/arreglos/obj/Debug/net9.0/arreglos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alejandro/Desktop/C#/arreglos/obj/Debug/net9.0/arreglos.AssemblyInfoInputs.cache
+/Users/alejandro/Desktop/C#/arreglos/obj/Debug/net9.0/arreglos.AssemblyInfo.cs
+/Users/alejandro/Desktop/C#/arreglos/obj/Debug/net9.0/arreglos.csproj.CoreCompileInputs.cache
+/Users/alejandro/Desktop/C#/arreglos/obj/Debug/net9.0/arreglos.dll
+/Users/alejandro/Desktop/C#/arreglos/obj/Debug/net9.0/refint/arreglos.dll
+/Users/alejandro/Desktop/C#/arreglos/obj/Debug/net9.0/arreglos.pdb
+/Users/alejandro/Desktop/C#/arreglos/obj/Debug/net9.0/arreglos.genruntimeconfig.cache
+/Users/alejandro/Desktop/C#/arreglos/obj/Debug/net9.0/ref/arreglos.dll

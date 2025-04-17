@@ -1,0 +1,14 @@
+/Users/alejandro/Desktop/C#/switch/bin/Debug/net9.0/switch
+/Users/alejandro/Desktop/C#/switch/bin/Debug/net9.0/switch.deps.json
+/Users/alejandro/Desktop/C#/switch/bin/Debug/net9.0/switch.runtimeconfig.json
+/Users/alejandro/Desktop/C#/switch/bin/Debug/net9.0/switch.dll
+/Users/alejandro/Desktop/C#/switch/bin/Debug/net9.0/switch.pdb
+/Users/alejandro/Desktop/C#/switch/obj/Debug/net9.0/switch.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alejandro/Desktop/C#/switch/obj/Debug/net9.0/switch.AssemblyInfoInputs.cache
+/Users/alejandro/Desktop/C#/switch/obj/Debug/net9.0/switch.AssemblyInfo.cs
+/Users/alejandro/Desktop/C#/switch/obj/Debug/net9.0/switch.csproj.CoreCompileInputs.cache
+/Users/alejandro/Desktop/C#/switch/obj/Debug/net9.0/switch.dll
+/Users/alejandro/Desktop/C#/switch/obj/Debug/net9.0/refint/switch.dll
+/Users/alejandro/Desktop/C#/switch/obj/Debug/net9.0/switch.pdb
+/Users/alejandro/Desktop/C#/switch/obj/Debug/net9.0/switch.genruntimeconfig.cache
+/Users/alejandro/Desktop/C#/switch/obj/Debug/net9.0/ref/switch.dll

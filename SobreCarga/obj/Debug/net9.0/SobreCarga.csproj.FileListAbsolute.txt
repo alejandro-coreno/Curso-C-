@@ -1,0 +1,14 @@
+/Users/alejandro/Desktop/C#/SobreCarga/bin/Debug/net9.0/SobreCarga
+/Users/alejandro/Desktop/C#/SobreCarga/bin/Debug/net9.0/SobreCarga.deps.json
+/Users/alejandro/Desktop/C#/SobreCarga/bin/Debug/net9.0/SobreCarga.runtimeconfig.json
+/Users/alejandro/Desktop/C#/SobreCarga/bin/Debug/net9.0/SobreCarga.dll
+/Users/alejandro/Desktop/C#/SobreCarga/bin/Debug/net9.0/SobreCarga.pdb
+/Users/alejandro/Desktop/C#/SobreCarga/obj/Debug/net9.0/SobreCarga.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alejandro/Desktop/C#/SobreCarga/obj/Debug/net9.0/SobreCarga.AssemblyInfoInputs.cache
+/Users/alejandro/Desktop/C#/SobreCarga/obj/Debug/net9.0/SobreCarga.AssemblyInfo.cs
+/Users/alejandro/Desktop/C#/SobreCarga/obj/Debug/net9.0/SobreCarga.csproj.CoreCompileInputs.cache
+/Users/alejandro/Desktop/C#/SobreCarga/obj/Debug/net9.0/SobreCarga.dll
+/Users/alejandro/Desktop/C#/SobreCarga/obj/Debug/net9.0/refint/SobreCarga.dll
+/Users/alejandro/Desktop/C#/SobreCarga/obj/Debug/net9.0/SobreCarga.pdb
+/Users/alejandro/Desktop/C#/SobreCarga/obj/Debug/net9.0/SobreCarga.genruntimeconfig.cache
+/Users/alejandro/Desktop/C#/SobreCarga/obj/Debug/net9.0/ref/SobreCarga.dll
