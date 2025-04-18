@@ -1,0 +1,15 @@
+/Users/alejandro/Desktop/C#/MetodosListas/bin/Debug/net9.0/MetodosListas
+/Users/alejandro/Desktop/C#/MetodosListas/bin/Debug/net9.0/MetodosListas.deps.json
+/Users/alejandro/Desktop/C#/MetodosListas/bin/Debug/net9.0/MetodosListas.runtimeconfig.json
+/Users/alejandro/Desktop/C#/MetodosListas/bin/Debug/net9.0/MetodosListas.dll
+/Users/alejandro/Desktop/C#/MetodosListas/bin/Debug/net9.0/MetodosListas.pdb
+/Users/alejandro/Desktop/C#/MetodosListas/obj/Debug/net9.0/MetodosListas.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alejandro/Desktop/C#/MetodosListas/obj/Debug/net9.0/MetodosListas.AssemblyInfoInputs.cache
+/Users/alejandro/Desktop/C#/MetodosListas/obj/Debug/net9.0/MetodosListas.AssemblyInfo.cs
+/Users/alejandro/Desktop/C#/MetodosListas/obj/Debug/net9.0/MetodosListas.csproj.CoreCompileInputs.cache
+/Users/alejandro/Desktop/C#/MetodosListas/obj/Debug/net9.0/MetodosListas.sourcelink.json
+/Users/alejandro/Desktop/C#/MetodosListas/obj/Debug/net9.0/MetodosListas.dll
+/Users/alejandro/Desktop/C#/MetodosListas/obj/Debug/net9.0/refint/MetodosListas.dll
+/Users/alejandro/Desktop/C#/MetodosListas/obj/Debug/net9.0/MetodosListas.pdb
+/Users/alejandro/Desktop/C#/MetodosListas/obj/Debug/net9.0/MetodosListas.genruntimeconfig.cache
+/Users/alejandro/Desktop/C#/MetodosListas/obj/Debug/net9.0/ref/MetodosListas.dll
