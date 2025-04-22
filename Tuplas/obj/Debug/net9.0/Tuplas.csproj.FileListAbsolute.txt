@@ -1,0 +1,15 @@
+/Users/alejandro/Desktop/C#/Tuplas/bin/Debug/net9.0/Tuplas
+/Users/alejandro/Desktop/C#/Tuplas/bin/Debug/net9.0/Tuplas.deps.json
+/Users/alejandro/Desktop/C#/Tuplas/bin/Debug/net9.0/Tuplas.runtimeconfig.json
+/Users/alejandro/Desktop/C#/Tuplas/bin/Debug/net9.0/Tuplas.dll
+/Users/alejandro/Desktop/C#/Tuplas/bin/Debug/net9.0/Tuplas.pdb
+/Users/alejandro/Desktop/C#/Tuplas/obj/Debug/net9.0/Tuplas.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alejandro/Desktop/C#/Tuplas/obj/Debug/net9.0/Tuplas.AssemblyInfoInputs.cache
+/Users/alejandro/Desktop/C#/Tuplas/obj/Debug/net9.0/Tuplas.AssemblyInfo.cs
+/Users/alejandro/Desktop/C#/Tuplas/obj/Debug/net9.0/Tuplas.csproj.CoreCompileInputs.cache
+/Users/alejandro/Desktop/C#/Tuplas/obj/Debug/net9.0/Tuplas.sourcelink.json
+/Users/alejandro/Desktop/C#/Tuplas/obj/Debug/net9.0/Tuplas.dll
+/Users/alejandro/Desktop/C#/Tuplas/obj/Debug/net9.0/refint/Tuplas.dll
+/Users/alejandro/Desktop/C#/Tuplas/obj/Debug/net9.0/Tuplas.pdb
+/Users/alejandro/Desktop/C#/Tuplas/obj/Debug/net9.0/Tuplas.genruntimeconfig.cache
+/Users/alejandro/Desktop/C#/Tuplas/obj/Debug/net9.0/ref/Tuplas.dll
