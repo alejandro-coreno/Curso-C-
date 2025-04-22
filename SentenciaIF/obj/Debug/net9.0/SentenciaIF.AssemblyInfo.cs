@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SentenciaIF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1209c8d899fda69755df900f5b5b3847f89f8fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c89374e97b29a2a6507245f1b81b10d7a937c202")]
 [assembly: System.Reflection.AssemblyProductAttribute("SentenciaIF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SentenciaIF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
