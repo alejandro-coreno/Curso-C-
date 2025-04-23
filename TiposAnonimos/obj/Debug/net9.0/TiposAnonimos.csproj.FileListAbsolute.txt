@@ -1,0 +1,15 @@
+/Users/alejandro/Desktop/C#/TiposAnonimos/obj/Debug/net9.0/TiposAnonimos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alejandro/Desktop/C#/TiposAnonimos/obj/Debug/net9.0/TiposAnonimos.AssemblyInfoInputs.cache
+/Users/alejandro/Desktop/C#/TiposAnonimos/obj/Debug/net9.0/TiposAnonimos.AssemblyInfo.cs
+/Users/alejandro/Desktop/C#/TiposAnonimos/obj/Debug/net9.0/TiposAnonimos.csproj.CoreCompileInputs.cache
+/Users/alejandro/Desktop/C#/TiposAnonimos/obj/Debug/net9.0/TiposAnonimos.sourcelink.json
+/Users/alejandro/Desktop/C#/TiposAnonimos/bin/Debug/net9.0/TiposAnonimos
+/Users/alejandro/Desktop/C#/TiposAnonimos/bin/Debug/net9.0/TiposAnonimos.deps.json
+/Users/alejandro/Desktop/C#/TiposAnonimos/bin/Debug/net9.0/TiposAnonimos.runtimeconfig.json
+/Users/alejandro/Desktop/C#/TiposAnonimos/bin/Debug/net9.0/TiposAnonimos.dll
+/Users/alejandro/Desktop/C#/TiposAnonimos/bin/Debug/net9.0/TiposAnonimos.pdb
+/Users/alejandro/Desktop/C#/TiposAnonimos/obj/Debug/net9.0/TiposAnonimos.dll
+/Users/alejandro/Desktop/C#/TiposAnonimos/obj/Debug/net9.0/refint/TiposAnonimos.dll
+/Users/alejandro/Desktop/C#/TiposAnonimos/obj/Debug/net9.0/TiposAnonimos.pdb
+/Users/alejandro/Desktop/C#/TiposAnonimos/obj/Debug/net9.0/TiposAnonimos.genruntimeconfig.cache
+/Users/alejandro/Desktop/C#/TiposAnonimos/obj/Debug/net9.0/ref/TiposAnonimos.dll
