@@ -1,0 +1,15 @@
+/Users/alejandro/Desktop/C#/Excepciones2/bin/Debug/net9.0/Excepciones2
+/Users/alejandro/Desktop/C#/Excepciones2/bin/Debug/net9.0/Excepciones2.deps.json
+/Users/alejandro/Desktop/C#/Excepciones2/bin/Debug/net9.0/Excepciones2.runtimeconfig.json
+/Users/alejandro/Desktop/C#/Excepciones2/bin/Debug/net9.0/Excepciones2.dll
+/Users/alejandro/Desktop/C#/Excepciones2/bin/Debug/net9.0/Excepciones2.pdb
+/Users/alejandro/Desktop/C#/Excepciones2/obj/Debug/net9.0/Excepciones2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alejandro/Desktop/C#/Excepciones2/obj/Debug/net9.0/Excepciones2.AssemblyInfoInputs.cache
+/Users/alejandro/Desktop/C#/Excepciones2/obj/Debug/net9.0/Excepciones2.AssemblyInfo.cs
+/Users/alejandro/Desktop/C#/Excepciones2/obj/Debug/net9.0/Excepciones2.csproj.CoreCompileInputs.cache
+/Users/alejandro/Desktop/C#/Excepciones2/obj/Debug/net9.0/Excepciones2.sourcelink.json
+/Users/alejandro/Desktop/C#/Excepciones2/obj/Debug/net9.0/Excepciones2.dll
+/Users/alejandro/Desktop/C#/Excepciones2/obj/Debug/net9.0/refint/Excepciones2.dll
+/Users/alejandro/Desktop/C#/Excepciones2/obj/Debug/net9.0/Excepciones2.pdb
+/Users/alejandro/Desktop/C#/Excepciones2/obj/Debug/net9.0/Excepciones2.genruntimeconfig.cache
+/Users/alejandro/Desktop/C#/Excepciones2/obj/Debug/net9.0/ref/Excepciones2.dll
