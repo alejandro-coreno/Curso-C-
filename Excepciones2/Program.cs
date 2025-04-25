@@ -10,8 +10,9 @@ namespace  Excepciones2
             // Manejamos la excepcion con el try catch
             try 
             {
+                // Creamos nuestro objeto cerveza
                 Beer beer = new Beer(){
-                    Name = "Corona",
+                    //Name = "Corona",
                     Brand = "Modelo"
                 };
                 Console.WriteLine(beer);
@@ -24,10 +25,12 @@ namespace  Excepciones2
         }
 
         // Clase personalizada para manejar las propias excepciones
+        // Hereda de la clas EXCEPTION
         public class InValidBeer : Exception 
         {
             // Constructor
-            public InValidBeer() : base("La cerveza no tien nombre o marca")
+            public InValidBeer() : 
+                base("La cerveza no tiene nombre o marca")
             {
 
             }
@@ -43,7 +46,7 @@ namespace  Excepciones2
             // Metodo para sobreEscribir el metodo ToString()];
             public override string ToString()
             {
-                if (Name == null ){
+                if (  Name == null ){
                     throw new InValidBeer();
                 }
                 return $"Cerveza: {Name} , Brand: {Brand}";
