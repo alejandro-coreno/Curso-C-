@@ -18,7 +18,14 @@ namespace  Excepciones2
                 Console.WriteLine(beer);
 
             }
-            catch(InValidBeer ex)
+            // Catch de nuestra clase personalizada
+            catch (InValidBeer ex)
+            {
+                Console.WriteLine( ex.Message );
+            }
+
+            // Catch de la Excepcion general
+            catch(Exception ex)
             {
                 Console.WriteLine( ex.Message );
             }
@@ -39,6 +46,7 @@ namespace  Excepciones2
         // Clase que tiene dos propiedades
         public class Beer 
         {
+            // Propiedades de la clase con su set y get;
             public string Name {get; set;}
 
             public string Brand {get; set;}
