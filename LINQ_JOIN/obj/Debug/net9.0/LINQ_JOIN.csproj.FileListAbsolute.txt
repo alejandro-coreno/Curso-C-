@@ -1,0 +1,15 @@
+/Users/alejandro/Desktop/C#/LINQ_JOIN/bin/Debug/net9.0/LINQ_JOIN
+/Users/alejandro/Desktop/C#/LINQ_JOIN/bin/Debug/net9.0/LINQ_JOIN.deps.json
+/Users/alejandro/Desktop/C#/LINQ_JOIN/bin/Debug/net9.0/LINQ_JOIN.runtimeconfig.json
+/Users/alejandro/Desktop/C#/LINQ_JOIN/bin/Debug/net9.0/LINQ_JOIN.dll
+/Users/alejandro/Desktop/C#/LINQ_JOIN/bin/Debug/net9.0/LINQ_JOIN.pdb
+/Users/alejandro/Desktop/C#/LINQ_JOIN/obj/Debug/net9.0/LINQ_JOIN.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alejandro/Desktop/C#/LINQ_JOIN/obj/Debug/net9.0/LINQ_JOIN.AssemblyInfoInputs.cache
+/Users/alejandro/Desktop/C#/LINQ_JOIN/obj/Debug/net9.0/LINQ_JOIN.AssemblyInfo.cs
+/Users/alejandro/Desktop/C#/LINQ_JOIN/obj/Debug/net9.0/LINQ_JOIN.csproj.CoreCompileInputs.cache
+/Users/alejandro/Desktop/C#/LINQ_JOIN/obj/Debug/net9.0/LINQ_JOIN.sourcelink.json
+/Users/alejandro/Desktop/C#/LINQ_JOIN/obj/Debug/net9.0/LINQ_JOIN.dll
+/Users/alejandro/Desktop/C#/LINQ_JOIN/obj/Debug/net9.0/refint/LINQ_JOIN.dll
+/Users/alejandro/Desktop/C#/LINQ_JOIN/obj/Debug/net9.0/LINQ_JOIN.pdb
+/Users/alejandro/Desktop/C#/LINQ_JOIN/obj/Debug/net9.0/LINQ_JOIN.genruntimeconfig.cache
+/Users/alejandro/Desktop/C#/LINQ_JOIN/obj/Debug/net9.0/ref/LINQ_JOIN.dll
