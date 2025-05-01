@@ -1,6 +1,5 @@
 ﻿// LINQ -> Nos permite trabajar con collecciones
 // Nos permite trabajar de forma interaciva  
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,11 +7,12 @@ using System.Linq.Expressions;
 
 namespace LINQ 
 {
+    // clase program
     class Program 
     {
         static void Main(string [] args )
         {
-            // Creamos una lista de cervezas con tres objetos diferentes
+            // Creamos una lista de cervezas de tipo beer  con tres objetos diferentes 
             List<Beer> beers = new List<Beer>(){
                 new Beer (){
                     Nombre = "Corona",
@@ -87,7 +87,7 @@ namespace LINQ
 
             var orderBeers = from b in beers 
                         orderby b.Pais
-                        select b;
+                        select b ;
 
             // Iteramos nuesta nuva lista ordenada por paises
             foreach(var beer in orderBeers )
@@ -95,6 +95,7 @@ namespace LINQ
         }
     }
 
+    // clase beer
     public class Beer 
     {
         // Propiedades de la clase 
