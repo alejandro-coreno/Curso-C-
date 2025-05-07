@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Conexion BD 
+
+using System;
+namespace ConexionBD 
+{
+    class Program
+    {
+        static void Main (string [] args) 
+        {
+            
+        }
+    } 
+}
