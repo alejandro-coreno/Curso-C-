@@ -46,7 +46,7 @@ namespace  Excepciones2
         // Clase que tiene dos propiedades
         public class Beer 
         {
-            // Propiedades de la clase con su set y get;
+            // Propiedades de la clase con su set y get;kf
             public string Name {get; set;}
 
             public string Brand {get; set;}
