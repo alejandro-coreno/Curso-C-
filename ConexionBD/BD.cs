@@ -11,10 +11,11 @@ namespace ConexionBD
 {
     public class BD
     {
-        // Creamos nuestra variable de conexion
+        // Creamos nuestra variable de conexion - cadena de conexion
         private string connectionString;
 
         // Atriobuto para crear nuestro objeto de tipo connection
+        // varible para podernos conectar al BD con MySqlConnection
         protected MySqlConnection conn;
 
 
@@ -22,7 +23,7 @@ namespace ConexionBD
         // atributos
         public BD(string server, string db, string user, string password)
         {
-            // Agregamos nuestras variables a la caden de conexion para MYSQL
+            // Agregamos nuestras variables a la caden de conexion para MYSQL para inicializar
             connectionString = $"Server={server};Database={db};User ID={user};Password={password};";
 
         } 
@@ -30,14 +31,18 @@ namespace ConexionBD
         // Metodo para realizar la conexion a la BD
         public void  connect()
         {
+            // creamos la varible para conectarno por medion de MysqlConnection 
+            // el constructor requiere la cadena de conexion
             conn = new MySqlConnection(connectionString);
             conn.Open();
         }
 
         // Metodo para cerrar nuesta Conexion
+        // Primero verifica que este abierta la connexion
         public void exit()
         {
-            conn.Close();
+            if (connectionString != null)
+                conn.Close();
         }
     }  
 }
