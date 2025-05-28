@@ -3,20 +3,20 @@
 
 using System;
 // Traemos la libreria propia de C# para poder ocupar LA BD
-using MySql.Data.MySqlClient;
-
-
+// Utilizamos MYSQLConector para poder conectarnos a la base de datos
+using MySqlConnector;
 
 namespace ConexionBD 
-{
-    public class BD
+{   
+    // Creamos una clase abstracta para poderla reutilizar 
+    public abstract class BD
     {
         // Creamos nuestra variable de conexion - cadena de conexion
         private string connectionString;
 
         // Atriobuto para crear nuestro objeto de tipo connection
         // varible para podernos conectar al BD con MySqlConnection
-        protected MySqlConnection conn;
+        protected MySqlConnection? conn;
 
 
         // Creamos nuestro constructor el cual se encarga de inicializar nuestros
@@ -28,7 +28,7 @@ namespace ConexionBD
 
         } 
 
-        // Metodo para realizar la conexion a la BD
+        // Metodo para realizar la conexion a la BD en MYSQL
         public void  connect()
         {
             // creamos la varible para conectarno por medion de MysqlConnection 
@@ -41,7 +41,8 @@ namespace ConexionBD
         // Primero verifica que este abierta la connexion
         public void exit()
         {
-            if (connectionString != null)
+            // Se ejecuta cuando nuestra conexion sea distinta de null
+            if (conn != null && conn.State == System.Data.ConnectionState.Open)
                 conn.Close();
         }
     }  

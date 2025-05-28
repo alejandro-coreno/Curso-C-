@@ -35,3 +35,6 @@
 /Users/alejandro/Desktop/C#/ConexionBD/obj/Debug/net9.0/ConexionBD.pdb
 /Users/alejandro/Desktop/C#/ConexionBD/obj/Debug/net9.0/ConexionBD.genruntimeconfig.cache
 /Users/alejandro/Desktop/C#/ConexionBD/obj/Debug/net9.0/ref/ConexionBD.dll
+/Users/alejandro/Desktop/C#/ConexionBD/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/alejandro/Desktop/C#/ConexionBD/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/alejandro/Desktop/C#/ConexionBD/bin/Debug/net9.0/MySqlConnector.dll
