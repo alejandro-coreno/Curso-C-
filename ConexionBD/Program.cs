@@ -1,6 +1,7 @@
 ﻿// Nos conectamos a la base de datos
 using System;
 using System.Collections.Generic;
+using Mysqlx.Crud;
 using Org.BouncyCastle.Crypto.Engines;
 namespace ConexionBD 
 {
@@ -37,6 +38,9 @@ namespace ConexionBD
                             break;
                         case 3:
                             Edit(beerdb);
+                            break;
+                        case 4:
+                            Delete(beerdb);
                             break;
                         case 5:
                             empezar = false;
@@ -104,7 +108,6 @@ namespace ConexionBD
         }
 
         // Metodo para Editar un registro
-
         public static void Edit(BeerDB beerdb)
         {
             Console.Clear();
@@ -140,6 +143,30 @@ namespace ConexionBD
             }
 
 
+        }
+
+        public static void Delete(BeerDB beerdb)
+        {
+            Console.Clear();
+            showList(beerdb);
+
+            Console.WriteLine("Eliminar una cerveza");
+
+            Console.WriteLine("Escribe el Id de la Cerveza a eliminar: ");
+
+            int id = int.Parse(Console.ReadLine());
+
+            Cerveza beer = beerdb.Get(id);
+
+
+            if (beer != null)
+            {
+                beerdb.Delete(id);
+            }
+            else
+            {
+                Console.WriteLine("La cerveza no existe");
+            }
         }
     } 
 }

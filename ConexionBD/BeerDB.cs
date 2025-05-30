@@ -1,4 +1,5 @@
 using System;
+using System.Linq.Expressions;
 using MySqlConnector;
 using Mysqlx.Connection;
 using Mysqlx.Cursor;
@@ -55,7 +56,6 @@ namespace ConexionBD
         }
 
         // Metodo para obtener una cerveza
-
         public Cerveza Get(int id)
         {
             // Creamos nuestra conexion
@@ -65,7 +65,7 @@ namespace ConexionBD
             Cerveza beer = null;
 
             // Creamos nuestra consulta
-            string query = "SELECT Id, Nombre, Marcaid WHERE id = @id";
+            string query = "SELECT Id, Nombre, Marcaid FROM Cerveza WHERE ID = @id";
 
 
             // Creamos un objeto de tipo command para poder ejecutar la consulta
@@ -143,6 +143,35 @@ namespace ConexionBD
 
             // Cerramos la conexion
             exit();
+        }
+
+
+        // Metodo para elimnar una cerveza por id
+        public void Delete(int id)
+        {
+            // Realizamos la conexion
+            connect();
+
+
+            // Creamos la consulta
+            string query = "DELETE FROM Cerveza WHERE id = @id";
+
+
+            // Instanciamos nuestro objeto de tipo MysqlCommand
+            MySqlCommand command = new MySqlCommand(query, conn);
+
+
+            // Seteamos nuestros parametros
+            command.Parameters.AddWithValue("@id", id);
+
+            // Ejecutamos nuestra consulta
+            command.ExecuteNonQuery();
+
+
+            // Cerramos la conexion 
+            exit();
+
+
         }
     }
  
