@@ -25,11 +25,10 @@ namespace ConexionBD
         {
             // Agregamos nuestras variables a la caden de conexion para MYSQL para inicializar
             connectionString = $"Server={server};Database={db};User ID={user};Password={password};";
-
         } 
 
         // Metodo para realizar la conexion a la BD en MYSQL
-        public void  connect()
+        public void connect()
         {
             // creamos la varible para conectarno por medion de MysqlConnection 
             // el constructor requiere la cadena de conexion

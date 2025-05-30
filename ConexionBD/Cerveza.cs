@@ -20,5 +20,11 @@ namespace ConexionBD
             this.Nombre = nombre;
             this.MacaId = marcaid;
         }
+
+         public Cerveza( string nombre, int marcaid)
+        {
+            this.Nombre = nombre;
+            this.MacaId = marcaid;
+        }
     }    
 }

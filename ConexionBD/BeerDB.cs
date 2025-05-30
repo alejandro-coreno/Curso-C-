@@ -7,7 +7,7 @@ namespace ConexionBD
     // Creamos nuestra clase BeerDB y realizamos la herencia
     public class BeerDB : BD 
     {
-        // El padre en su constructor requiere los parametros se los pasamos con : base
+        // El padre en su constructor requiere los parametros se los pasamos con : base a la clase pádre
         public BeerDB (string server, string db, string user, string password)
             : base(server, db, user, password)
         {
@@ -28,7 +28,7 @@ namespace ConexionBD
             // Creamos la consulta
             string query = "SELECT Id, Nombre, MarcaId FROM Cerveza";
 
-            // creamos la instancia pde MysqlCommand   
+            // creamos la instancia command MysqlCommand   
             MySqlCommand command = new MySqlCommand(query, conn);
 
             // Permite leer la conuslta que  ejecutamos con coomand 
@@ -50,6 +50,31 @@ namespace ConexionBD
             exit();
 
             return Cervezas;
+        }
+
+        // Metodo para agregar 
+        public void Add(Cerveza beer)
+        {
+            // Realizamos la conexion
+            connect();
+
+            // Creamos nuestra consulta
+            string query = "INSERT INTO Cerveza (Nombre, Marcaid) VALUES (@name, @marca)";
+
+            // Creamos un objeto de tipo MySqlCommand
+            MySqlCommand command = new MySqlCommand(query, conn);
+
+
+            // Seteamos nuestros parametros
+            command.Parameters.AddWithValue("@name", beer.Nombre);
+            command.Parameters.AddWithValue("@marca", beer.MacaId);
+
+
+            // Ejecutamos la consulta
+            command.ExecuteNonQuery();
+
+            //Cerramos nuetra conexion
+            exit();
         }
     }
  
