@@ -35,6 +35,9 @@ namespace ConexionBD
                         case 2:
                             Add(beerdb);
                             break;
+                        case 3:
+                            Edit(beerdb);
+                            break;
                         case 5:
                             empezar = false;
                             break;
@@ -49,7 +52,7 @@ namespace ConexionBD
             }
 
         }
-        
+
         // Metodo Menu
         public static void showMenu()
         {
@@ -63,17 +66,17 @@ namespace ConexionBD
 
 
         // Metodo para mostrar el listado de cervezas de la BD
-        public static void showList(BeerDB beerdb) 
+        public static void showList(BeerDB beerdb)
         {
             Console.Clear();
 
-            Console.WriteLine("LIstado de Cervezas"); 
+            Console.WriteLine("LIstado de Cervezas");
             Console.WriteLine("\n ------------------ ");
             // Obtenemos la lista del metodo GetAll que retorna la clase BeerDB 
             List<Cerveza> beers = beerdb.GetAll();
-                
-                //Iteramos nuestra lista de cervezas ya seteada
-            foreach(var beer in beers)
+
+            //Iteramos nuestra lista de cervezas ya seteada
+            foreach (var beer in beers)
             {
                 Console.WriteLine($" La Cerveza con Id: {beer.Id} es {beer.Nombre} ");
             }
@@ -88,15 +91,54 @@ namespace ConexionBD
             Console.WriteLine("Agregar Cerveza");
             Console.WriteLine("Nombre de la Cerveza : ");
 
-            string name= Console.ReadLine();
+            string name = Console.ReadLine();
 
             Console.WriteLine("El id de la Marca");
             int id = int.Parse(Console.ReadLine());
 
 
-            Cerveza beer = new Cerveza (name, id);
+            Cerveza beer = new Cerveza(name, id);
 
             beerdb.Add(beer);
+
+        }
+
+        // Metodo para Editar un registro
+
+        public static void Edit(BeerDB beerdb)
+        {
+            Console.Clear();
+
+            showList(beerdb);
+
+            Console.WriteLine("Editar una Cerveza");
+
+            Console.WriteLine("Eligue el id de la Cerveza a editar");
+
+            int id = int.Parse(Console.ReadLine());
+
+            Cerveza beer = beerdb.Get(id);
+
+            if (beer.Id != null)
+            {
+                Console.WriteLine("Cual es el nombre: ");
+
+                string name = Console.ReadLine();
+
+                Console.WriteLine("Cual es el id de la Marca");
+
+                int marca = int.Parse(Console.ReadLine());
+
+                beer.Nombre = name;
+                beer.MacaId = marca;
+
+                beerdb.Edit(beer);
+            }
+            else
+            {
+                Console.WriteLine("El id de la cerveza no existe");
+            }
+
 
         }
     } 
