@@ -145,6 +145,7 @@ namespace ConexionBD
 
         }
 
+        // Metodo para Eliminar un regisgto de la BD
         public static void Delete(BeerDB beerdb)
         {
             Console.Clear();
@@ -167,6 +168,8 @@ namespace ConexionBD
             {
                 Console.WriteLine("La cerveza no existe");
             }
+            
+            
         }
     } 
 }
