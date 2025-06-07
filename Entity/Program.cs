@@ -1,8 +1,9 @@
 ﻿using System;
 using Entity.Models;
-using System.Linq;
-using System.Data.Common;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using Microsoft.EntityFrameworkCore.Storage;
+using Microsoft.EntityFrameworkCore.Update.Internal;
 
 
 namespace Entity
@@ -50,13 +51,19 @@ namespace Entity
             {
                 ShowMenu();
 
-                Console.WriteLine("Eligue una opcion");
+                Console.WriteLine("Elige una opcion");
                 op = int.Parse(Console.ReadLine());
 
                 switch (op)
                 {
                     case 1:
                         Show(optionsBuilder);
+                        break;
+                    case 2:
+                        Add(optionsBuilder);
+                        break;
+                    case 3:
+                        Update(optionsBuilder);
                         break;
                 }
 
@@ -75,17 +82,102 @@ namespace Entity
             {
 
                 // Creamos un listado de cervezas el cual nos trae de la BD
-                List<Cerveza> beers = context.Cervezas.ToList();
+                List<Cerveza> beers = context.Cervezas.OrderBy(b => b.Nombre).ToList();
+
+                // Creamos un listado de cervezas y con LINQ , filtramos de manera ordenada de manera por el nombre del Listado de la BD
+                // Include nos permit realizar un JOIN con la Tabla cerveza
+                // Nos permite realizar un JOIN con la tabla
+                List<Cerveza> beers2 = (from b in context.Cervezas where b.Marcaid == 2 orderby b.Nombre select b).Include( b => b.Marca).ToList();
 
 
                 //Iteramos el listado de la BD
-                foreach (Cerveza beer in beers)
+                foreach (Cerveza beer in beers2)
                 {
-                    Console.WriteLine($"La Cerveza {beer.Nombre} con el ID de la Marca {beer.Marcaid}");
+                    Console.WriteLine($"La Cerveza {beer.Nombre} con el ID de la Marca {beer.Marcaid}, {beer.Marca.Nombre}");
                 }
             }
         }
 
+        public static void Add(DbContextOptionsBuilder<TestContext> optionsBuilder)
+        {
+            Console.Clear();
+            Console.WriteLine("Agregar una Cerveza BD");
+            Console.WriteLine("Escribe el nombre de la Cerveza:: ");
+
+            string cerveza = Console.ReadLine();
+
+            Console.WriteLine("Escribe el ID de la cerveza");
+
+            int id = int.Parse(Console.ReadLine());
+
+
+
+            using (TestContext context = new TestContext(optionsBuilder.Options))
+            {
+                // Creamos una instancia de Cerveza
+                Cerveza beer = new Cerveza()
+                {
+                    Nombre = cerveza,
+                    Marcaid = id
+                };
+
+                // Agregamos la cerveza al contexto
+                context.Add(beer);
+
+                // Guard amos los cambios en la BD
+                context.SaveChanges();
+
+                Console.WriteLine("Cerveza agregada correctamente");
+            }   
+        }
+
+        // Metodo para actualizar una cerveza
+        public static void Update(DbContextOptionsBuilder<TestContext> optionsBuilder)
+        {
+            Console.Clear();
+            Console.WriteLine("Actualizar una Cerveza BD");
+
+            // Mostramos la cervezas
+            Show(optionsBuilder);
+            Console.WriteLine("Escribe el ID de la Cerveza a actualizar:: ");
+            
+            // Guardamos el ID de la cerveza a actulizar
+            int id = int.Parse(Console.ReadLine());
+
+            using (TestContext context = new TestContext(optionsBuilder.Options))
+            {
+                // Buscamos la cerveza por el ID
+                Cerveza beer = context.Cervezas.Find(id);
+
+                if (beer != null)
+                {
+                    Console.WriteLine($"Cerveza encontrada: {beer.Nombre}");
+                    Console.WriteLine("Escribe el nuevo nombre de la Cerveza:: ");
+
+                    string nombre = Console.ReadLine();
+
+                    Console.WriteLine("Escribe el nuevo ID de la marca :: ");
+
+                    int neeId = int.Parse(Console.ReadLine());
+
+
+                    beer.Nombre = nombre;
+                    beer.Marcaid = neeId;
+
+                    // Editamos la informacion con entry , con el estado le indicamos que estamos modificando la cerveza
+                    context.Entry(beer).State = EntityState.Modified;
+
+                    // Guardamos los cambios en la BD
+                    context.SaveChanges();
+
+                    Console.WriteLine("Cerveza actualizada correctamente");
+                }
+                else
+                {
+                    Console.WriteLine("Cerveza no encontrada");
+                }
+            }
+        }
 
         // Metodo para mostrar el menu
         public static void ShowMenu()
