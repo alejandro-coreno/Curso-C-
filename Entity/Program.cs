@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Update.Internal;
+using System.Runtime.Intrinsics.Arm;
 
 
 namespace Entity
@@ -65,6 +66,12 @@ namespace Entity
                     case 3:
                         Update(optionsBuilder);
                         break;
+                    case 4:
+                        Delete(optionsBuilder);
+                        break;
+                    case 5:
+                        active = false;
+                        break;
                 }
 
             } while (active);
@@ -98,6 +105,8 @@ namespace Entity
             }
         }
 
+        
+        // Metodo para agregar una cerveza
         public static void Add(DbContextOptionsBuilder<TestContext> optionsBuilder)
         {
             Console.Clear();
@@ -128,7 +137,7 @@ namespace Entity
                 context.SaveChanges();
 
                 Console.WriteLine("Cerveza agregada correctamente");
-            }   
+            }
         }
 
         // Metodo para actualizar una cerveza
@@ -179,6 +188,36 @@ namespace Entity
             }
         }
 
+        // Metodo para eliminar una cerveza 
+        public static void Delete(DbContextOptionsBuilder<TestContext> optionsBuilder)
+        {
+            Console.Clear();
+            Console.WriteLine("*** Eliminar una Cerveza");
+
+            Show(optionsBuilder);
+
+            Console.WriteLine("Escribe el ID de la cerveza a eliminar");
+            int id = int.Parse(Console.ReadLine());
+
+            using (TestContext context = new TestContext(optionsBuilder.Options))
+            {
+                Cerveza cerv = context.Cervezas.Find(id);
+
+                if (cerv != null)
+                {
+                    // Metodo Remove nos permite eliminar un elemento de la BD
+                    context.Cervezas.Remove(cerv);
+
+                    // Guardamos los cambios en BD
+                    context.SaveChanges();
+                }
+                else
+                {
+                    Console.WriteLine("No se encontro la cerveza");
+                }
+            }
+
+        }
         // Metodo para mostrar el menu
         public static void ShowMenu()
         {
