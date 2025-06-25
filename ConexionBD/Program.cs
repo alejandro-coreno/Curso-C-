@@ -12,6 +12,7 @@ namespace ConexionBD
         {
             try
             {
+                // C
                 // Instaciamos la clase para poder conectar al BD mediante el hijo
                 BeerDB beerdb = new BeerDB("localhost", "Test", "root", "12345678");
 
