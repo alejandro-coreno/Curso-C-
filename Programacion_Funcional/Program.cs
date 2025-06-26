@@ -59,6 +59,15 @@ Fuctions.Some("Alejandro", "Coreño", mesage);
 #endregion
 
 
+#region FuncionLamda 
+// Forma de escribir una funcion anonima y practica
+
+//  Ejemplo
+Action<string, string> showMesage2 = (a, b) => Console.WriteLine($"{a} , {b}");
+showMesage2("Nombre", "Nombre2");
+
+#endregion
+
 
 #region  Delegado Generico Action
 // Delegado Generico Action ->
@@ -90,6 +99,7 @@ public delegate void Show3(string mesasge, string mesage2, string mesage3);
 
 
 
+
 // Clase Fuctions
 public class Fuctions
 {
@@ -112,7 +122,7 @@ public class Fuctions
         Console.WriteLine("Has algo al final");
     }
 
-     public static void SomeAction(string name, string lastname, Action<string> fn)
+    public static void SomeAction(string name, string lastname, Action<string> fn)
     {
         Console.WriteLine("Has algo al Inicio");
         // Llamamos a la funcion de tipo Show que recibe un mesange y pasamos nuestros parametros de la funcion principal
