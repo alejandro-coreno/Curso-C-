@@ -18,7 +18,6 @@ namespace Programacion_Funcional
 */
 #endregion
 
-
 #region DelegadoT
 // Programacion Funcional
 // Delegado, definicion de una funcion o estructura
@@ -75,17 +74,26 @@ showMesage2("Nombre", "Nombre2");
 #endregion
 
 
-#region Delegado Generico Func
+#region Delegado Generico Func Retorna
 // Delegado Func no recibe parametros, pero regresa un valor
+// El ultimo valor de FUNC , es el valor que se retorna, si tiene mas y es si recibe valores o no
 Func<int> numberRadom = () =>
 {
     return new Random().Next(0, 100);
 };
 
-
+// Delegado Func que recibe y regresa un valor
+Func<int, int> numberRadomLimit = (limit) =>
+{
+    return new Random().Next(0, limit);
+};
 // ejecutamos nuestro delegado
 Console.WriteLine(numberRadom());
+
+// Ejecutamos nuestro delegado Func que recibe un valor
+Console.WriteLine(numberRadomLimit(10));
 #endregion
+
 
 #region  Delegado Generico Action
 // Delegado Generico Action ->
@@ -105,9 +113,37 @@ Fuctions.SomeAction("Josue Alejandro", "Camacho", showMessage);
 #endregion
 
 
+#region Delegado Predicate
+// Delegado que recibe un parametro y siempre regresa un booleano
+// Permite validar si contiene un espacio, si tiene una letra A
+Predicate<string> hasSpace = (palabra) =>
+{
+    return palabra.Contains(" ") || palabra.ToUpper().Contains("A");
+};
+
+// Invocamos nuestra funcion 
+Console.WriteLine(hasSpace("Comodo"));
 
 
-#region  Delegados
+// Lista de palabras de tipo string
+List<string> palabras = new List<string>()
+{
+    "Sopa", "Arroz", "Comodo"
+};
+
+// Evaluamos las palabra quue cumplen con dicha condiccion en wordnew
+var wordNew = palabras.FindAll(hasSpace);
+
+
+// Itermos las palabras que si haya cumplido la dondicion
+foreach (var w in wordNew)
+{
+    Console.WriteLine(w);
+}
+
+#endregion 
+
+#region  Delegados normales
 // Creamos nuestro delegados para las funciones que cumplan con cierta regla
 delegate int operation(int a, int b);
 public delegate void Show(string mesasge);
@@ -120,7 +156,7 @@ public delegate void Show3(string mesasge, string mesage2, string mesage3);
 
 
 
-// Clase Fuctions
+// Clase Fuctions 
 public class Fuctions
 {
     // Funcion que recibe como parametro dos valores y retorna el resultado
