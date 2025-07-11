@@ -22,9 +22,9 @@ namespace Programacion_Funcional
 #region DelegadoT
 // Programacion Funcional
 // Delegado, definicion de una funcion o estructura
-// Perrmite guardar en varibles nuestra funcion y poder modificar
+// Permite guardar en varibles nuestra funcion y poder modificar
 // El delegado indica la estructura de nuestra funcion, o formar de definir una funcion  
-//  Tipo o forma de definir una funcion 
+// Tipo o forma de definir una funcion 
 // Cumple las reglas con un delegado
 
 #endregion
@@ -41,7 +41,7 @@ Console.WriteLine(mysum(5, 8));
 
 mysum = Fuctions.Mul;
 
-// Ejecutamos nuestro funcion con delegado
+// Ejecutamos nuestra funcion con delegado
 Console.WriteLine(mysum(5, 7));
 
 // Creamos un delegado de tipo Show, y lo guardamos en nuestra variable message
@@ -61,9 +61,15 @@ Fuctions.Some("Alejandro", "Coreño", mesage);
 
 #region FuncionLamda 
 // Forma de escribir una funcion anonima y practica
+// Permite crear una funcion 
 
 //  Ejemplo
+
+// Action pérmite crear una funcion con parametros, y no retornar nada
+// Creamos le delegado con Action y mostramos la respuesta dentro de la misma funcion
 Action<string, string> showMesage2 = (a, b) => Console.WriteLine($"{a} , {b}");
+
+// Llamamos la funcion con sus dos parametros que nos solicita
 showMesage2("Nombre", "Nombre2");
 
 #endregion
@@ -74,8 +80,10 @@ showMesage2("Nombre", "Nombre2");
 // Permite definir una funcion que no retorna un valor
 // Se definen por numero de parametros y si regresan un valor o no 
 // Action -> Permite recibir parametros pero no regresa nada
-
+// Delegado Generico , ser una funcion cualquiera que reciba un numero de parametros, pero no regresa nada 
 // Guardamos nuestra variable showMesage
+
+// Action -> Recibe el tipo de dato, que va a recibir
 Action<string> showMessage = Console.WriteLine;
 
 // Ejecutamos nuestro delegado Action
