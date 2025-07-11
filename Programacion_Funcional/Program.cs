@@ -75,6 +75,18 @@ showMesage2("Nombre", "Nombre2");
 #endregion
 
 
+#region Delegado Generico Func
+// Delegado Func no recibe parametros, pero regresa un valor
+Func<int> numberRadom = () =>
+{
+    return new Random().Next(0, 100);
+};
+
+
+// ejecutamos nuestro delegado
+Console.WriteLine(numberRadom());
+#endregion
+
 #region  Delegado Generico Action
 // Delegado Generico Action ->
 // Permite definir una funcion que no retorna un valor
