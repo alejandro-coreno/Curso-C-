@@ -135,7 +135,7 @@ List<string> palabras = new List<string>()
 var wordNew = palabras.FindAll(hasSpace);
 
 
-// Itermos las palabras que si haya cumplido la dondicion
+// Itermos las palabras que si haya cumplido la condicion
 foreach (var w in wordNew)
 {
     Console.WriteLine(w);
